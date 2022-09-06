@@ -1,5 +1,5 @@
-# Mapas Culturais Base Project
-Este é um projeto base para desenvolvimento de temas e plugins.
+# Mapa Cultural de Camaçari
+Esse é o repositório do Mapa Cultural de Camaçari.
 
 ## Estrutura de arquivos
 - **start.sh** - inicializa o ambiente de produçao/staging
