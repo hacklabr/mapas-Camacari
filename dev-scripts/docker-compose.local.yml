@@ -13,6 +13,7 @@ services:
 
       - ../compose/common/config.d:/var/www/html/protected/application/conf/conf-common.d
       - ../compose/local/config.d:/var/www/html/protected/application/conf/config.d
+      - ../compose/common/lgpd-terms:/var/www/html/protected/application/conf/lgpd-terms
 
       # themes and plugins
       - ../themes/SampleTheme:/var/www/html/protected/application/themes/SampleTheme
