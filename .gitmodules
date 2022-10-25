@@ -9,4 +9,4 @@
 	url = https://github.com/mapasculturais/plugin-LocationPatch.git
 [submodule "plugins/SubsiteImporter"]
 	path = plugins/SubsiteImporter
-	url = git@github.com:mapasculturais/plugin-SubsiteImporter.git
+	url = https://github.com/mapasculturais/plugin-SubsiteImporter.git
