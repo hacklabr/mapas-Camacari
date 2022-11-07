@@ -5,9 +5,6 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-echo "EDITE ESTE ARQUIVO E DEFINA AS VARIÁVEIS domain, email e staging"
-exit; # E APAGUE ESSA LINHA
-
 domain=(mapacultural.camacari.ba.gov.br)
 email="nao-responda-secultcamacari@camacari.ba.gov.br" # Adding a valid address is strongly recommended
 staging=1 # Set to 1 if you're testing your setup to avoid hitting request limits
