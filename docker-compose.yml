@@ -1,11 +1,17 @@
 version: '3'
 services:
-  web:
-    image: hacklab/mapasculturais-nginx:latest
-    restart: always
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
     volumes:
+     - /dev/null:/var/www/html/index.php
+
      - ./docker-data/public-files:/var/www/html/files
      - ./docker-data/assets:/var/www/html/assets
+
+     - ./compose/production/nginx.conf:/etc/nginx/conf.d
+     - ./docker-data/certbot/conf:/etc/letsencrypt
+     - ./docker-data/certbot/www:/var/www/certbot
     ports:
      - "80:80"
      - "443:443"
@@ -13,6 +19,14 @@ services:
       - mapasculturais
     links:
       - mapasculturais
+    
+  certbot:
+    image: certbot/certbot
+    restart: unless-stopped
+    volumes:
+      - ./docker-data/certbot/conf:/etc/letsencrypt
+      - ./docker-data/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
 
   mapasculturais:
