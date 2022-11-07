@@ -11,8 +11,6 @@ return [
     'auth.config' => array(
         'salt' => env('AUTH_SALT', null),
         'timeout' => '24 hours',
-        'google-recaptcha-secret' => '6LeM_-ciAAAAAAGBqL5K4jatQYuLViGhQyB551g9',
-        'google-recaptcha-sitekey' => '6LeM_-ciAAAAANH0GIcBlM11QMFnEdT7Z60qbhQ6',
         'strategies' => [
            'Facebook' => array(
                'app_id' => env('AUTH_FACEBOOK_APP_ID', null),

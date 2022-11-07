@@ -9,8 +9,6 @@ return [
 
     'app.lcode' => env('APP_LCODE', 'pt_BR,es_ES'),
 
-    'cep.token' => 'cb61d879b93a42cafc6af4cb4feb9119',
-
     'namespaces' => array(
         'MapasCulturais\Themes' => THEMES_PATH,
         'MapasCulturais\Themes\BaseV1' => THEMES_PATH . 'BaseV1/',
