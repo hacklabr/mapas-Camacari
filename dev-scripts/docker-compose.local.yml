@@ -22,6 +22,7 @@ services:
       - ../plugins/MultipleLocalAuth:/var/www/html/protected/application/plugins/MultipleLocalAuth
       - ../plugins/MapasBlame:/var/www/html/protected/application/plugins/MapasBlame
       - ../plugins/LocationPatch:/var/www/html/protected/application/plugins/LocationPatch
+      - ../plugins/SubsiteImporter:/var/www/html/protected/application/plugins/SubsiteImporter
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
