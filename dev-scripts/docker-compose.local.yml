@@ -29,6 +29,7 @@ services:
       - REDIS_CACHE=redis
       - ACTIVE_THEME=CAMACARI
       - APP_MODE=development
+      - AUTH_EMAIL_IMAGE=https://mapacultural.camacari.ba.gov.br/assets/img/logo-site-3571590761-1667502041.jpg
 
     depends_on:
       - db
