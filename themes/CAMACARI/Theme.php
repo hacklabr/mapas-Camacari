@@ -19,7 +19,7 @@ class Theme extends BaseV1\Theme
         $url_search_projects = $self->searchProjectsUrl;
 
         return [
-            'site: name' => 'Mapas Cultual de Camaçari',
+            'site: name' => 'Mapa Cultual de Camaçari',
             //    'site: description' => App::i()->config['app.siteDescription'],
             'site: in the region' => 'na CAMAÇARI',
             'site: of the region' => 'da CAMAÇARI',
