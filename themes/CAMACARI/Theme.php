@@ -65,7 +65,7 @@ class Theme extends BaseV1\Theme
 
     protected function _publishAssets()
     {
-        $this->asset('img/logo-site.jpg', false);
+        $this->asset('img/logo-site.png', false);
         $this->jsObject['assets']['logo-instituicao'] = $this->asset('img/logo-instituicao.png', false);
     }
 }
