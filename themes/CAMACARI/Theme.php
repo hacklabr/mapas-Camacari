@@ -19,7 +19,7 @@ class Theme extends BaseV1\Theme
         $url_search_projects = $self->searchProjectsUrl;
 
         return [
-            'site: name' => 'Mapa Cultual de Camaçari',
+            'site: name' => 'Mapa Cultural de Camaçari',
             //    'site: description' => App::i()->config['app.siteDescription'],
             'site: in the region' => 'na CAMAÇARI',
             'site: of the region' => 'da CAMAÇARI',
@@ -65,7 +65,7 @@ class Theme extends BaseV1\Theme
 
     protected function _publishAssets()
     {
-        $this->asset('img/logo-site.jpg', false);
+        $this->asset('img/logo-site.png', false);
         $this->jsObject['assets']['logo-instituicao'] = $this->asset('img/logo-instituicao.png', false);
     }
 }
