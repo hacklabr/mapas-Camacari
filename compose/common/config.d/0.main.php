@@ -2,7 +2,7 @@
 use MapasCulturais\i;
 
 return [
-    'app.siteName' => env('SITE_NAME', 'Mapas Culturais Base Project'),
+    'app.siteName' => env('SITE_NAME', 'Mapa Cultural de Camaçari'),
     'app.siteDescription' => i::__("O Mapas Culturais é uma plataforma colaborativa que reúne informações sobre agentes, espaços, eventos, projetos culturais e oportunidades"),
 
     'themes.active' => env('ACTIVE_THEME', 'MapasCulturais\Themes\BaseV1'),
