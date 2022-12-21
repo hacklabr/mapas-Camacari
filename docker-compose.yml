@@ -59,7 +59,7 @@ services:
       - REDIS_CACHE=redis
       - SESSIONS_SAVE_PATH=tcp://redis:6379
       - PENDING_PCACHE_RECREATION_INTERVAL=5
-      - AUTH_EMAIL_IMAGE=https://mapacultural.camacari.ba.gov.br/assets/img/logo-site-3571590761-1667502041.jpg
+      - AUTH_EMAIL_IMAGE=https://mapacultural.camacari.ba.gov.br/assets/img/logo-site-286408464-1671637844.png
 
       - DB_PASSWORD=mapas
       - DB_USER=mapas
