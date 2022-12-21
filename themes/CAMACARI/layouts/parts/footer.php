@@ -7,8 +7,10 @@
             <div class="column">
                 <p class="logo-instituicao"><a href="http://secult.camacari.ba.gov.br/"><img src="<?php $this->asset('img/logo-instituicao.png'); ?>" alt="Secult Camaçari/BA"></a></p>
                 <p class="social-icons">
-                    <a href="#" target="_blank" aria-label="Facebook">&#xe093;</a>
-                    <a href="#" target="_blank" aria-label="YouTube">&#xe0a3;</a>
+                    <a href="https://www.facebook.com/SecretariaDaCulturaDeCamacari" target="_blank" aria-label="Facebook">&#xe093;</a>
+                    <a href="https://www.instagram.com/secultcamacari/" target="_blank" aria-label="YouTube">&#xe09a;</a>
+                    <a href="https://www.youtube.com/@Tvccultura" target="_blank" aria-label="YouTube">&#xe0a3;</a>
+
                 </p>
             </div>
             <div class="column">
