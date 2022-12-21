@@ -5,14 +5,14 @@
        
         <div class="row logos">
             <div class="column">
-                <p class="logo-instituicao"><a href="http://camacari.ba.mapas.cultura.gov.br/"><img src="<?php $this->asset('img/logo-instituicao.png'); ?>" alt="Mapa Cultural de Camaçari/BA - Mapas Culturais"></a></p>
+                <p class="logo-instituicao"><a href="http://secult.camacari.ba.gov.br/"><img src="<?php $this->asset('img/logo-instituicao.png'); ?>" alt="Secult Camaçari/BA"></a></p>
                 <p class="social-icons">
                     <a href="#" target="_blank" aria-label="Facebook">&#xe093;</a>
                     <a href="#" target="_blank" aria-label="YouTube">&#xe0a3;</a>
                 </p>
             </div>
             <div class="column">
-                <p class="logo-hacklab">Desenvolvido pelo <a href="https://hacklab.com.br"><img src="<?php $this->asset('img/logo-hacklab.svg'); ?>" alt="Município de hacklab/"></a></p>
+                <p class="logo-hacklab">Desenvolvido pelo <a href="https://hacklab.com.br"><img src="<?php $this->asset('img/logo-hacklab.svg'); ?>" alt="Desenvolvido hacklab/"></a></p>
             </div>
         </div>
     </div>
