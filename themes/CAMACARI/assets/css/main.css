@@ -5580,6 +5580,10 @@ h1 .icon {
   width: 50%;
   height: 80px; }
 
+#registration-attachments textarea {
+  white-space: nowrap;
+  min-height: 75px; }
+
 editable-multiselect .help, editable-singleselect .help {
   margin-top: -5px;
   margin-bottom: 5px;
@@ -6737,7 +6741,8 @@ button.mfp-arrow-left {
   height: 30px; }
   @media screen and (min-width: 768px) {
     #main-header #brand-logo img {
-      height: 48px; } }
+      height: 59px;
+      width: 109px; } }
 @media screen and (max-width: 767px) {
   #main-header #organization-logo {
     display: none; } }
@@ -6816,7 +6821,7 @@ footer {
     vertical-align: middle;
     width: 49%; }
     #main-footer .column .logo-instituicao img {
-      width: 200px;
+      width: 234px;
       max-width: 90%; }
     #main-footer .column .logo-hacklab a {
       display: inline-flex; }
