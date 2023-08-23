@@ -4,9 +4,6 @@
 [submodule "plugins/MapasBlame"]
 	path = plugins/MapasBlame
 	url = https://github.com/mapasculturais/plugin-MapasBlame.git
-[submodule "plugins/LocationPatch"]
-	path = plugins/LocationPatch
-	url = https://github.com/mapasculturais/plugin-LocationPatch.git
 [submodule "plugins/SubsiteImporter"]
 	path = plugins/SubsiteImporter
 	url = https://github.com/mapasculturais/plugin-SubsiteImporter.git
