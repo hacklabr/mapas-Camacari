@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domain=(mapacultural.camacari.ba.gov.br)
+domain=(mapacultural.camacari.ba.gov.br,bi.mapacultural.camacari.ba.gov.br)
 email="nao-responda-secultcamacari@camacari.ba.gov.br" # Adding a valid address is strongly recommended
 staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
 
