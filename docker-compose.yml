@@ -41,13 +41,19 @@ services:
     volumes:
       - ./docker-data/assets:/var/www/html/assets
       - ./docker-data/public-files:/var/www/html/files
-      - ./docker-data/private-files:/var/www/private-files
-      - ./docker-data/saas-files:/var/www/SaaS
+      - ./docker-data/private-files:/var/www/var/private-files
+      - ./docker-data/saas-files:/var/www/var/saas-files
+      - ./docker-data/logs:/var/www/var/logs
+
+      - ./compose/common/config.d:/var/www/config/common.d
+      - ./compose/production/config.d:/var/www/config/prod.d
+      - ./compose/common/lgpd-terms:/var/www/config/lgpd-terms
+
     links:
       - db
       - redis
     environment:
-      - ACTIVE_THEME=CAMACARI
+      - ACTIVE_THEME=CamacariV2
 
       - LOG_LEVEL=DEBUG
       - LOG_ENABLED=true
@@ -58,8 +64,8 @@ services:
       
       - REDIS_CACHE=redis
       - SESSIONS_SAVE_PATH=tcp://redis:6379
-      - PENDING_PCACHE_RECREATION_INTERVAL=5
-      - AUTH_EMAIL_IMAGE=https://mapacultural.camacari.ba.gov.br/assets/img/logo-site-286408464-1671637844.png
+      
+      # - AUTH_EMAIL_IMAGE=https://mapacultural.camacari.ba.gov.br/assets/img/logo-site-286408464-1671637844.png
 
       - DB_PASSWORD=mapas
       - DB_USER=mapas
@@ -86,7 +92,7 @@ services:
 #    ports:
 #      - "5432:5432"
     volumes:
-      - ./compose/local/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ./db/:/docker-entrypoint-initdb.d/
       - ./docker-data/db-data:/var/lib/postgresql/data
       
   metabase:
@@ -103,6 +109,7 @@ services:
   
     depends_on:
       - db_metabase
+      - db
 
   db_metabase:
     image: postgres:14
