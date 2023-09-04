@@ -57,7 +57,8 @@ services:
 
       - LOG_LEVEL=DEBUG
       - LOG_ENABLED=true
-      
+
+      - TIMEZONE=America/Recife
       - APP_MODE=production
       - APP_LCODE=pt_BR
 #      - APP_LCODE=pt_BR,es_ES # para selecao do idioma baseado no navegador
