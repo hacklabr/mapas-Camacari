@@ -3,7 +3,7 @@ use \MapasCulturais\i;
 
 return [
     "text:home-header.title" => i::__("Boas-vindas ao Mapa Cultural de Camaçari!"),
-    "text:home-header.description" => i::__("O Mapa Cultural de Camaçari é o Sistemas Municipal de Informação e Indicadores Culturais. Desempenha um papel fundamental no planejamento, gestão e monitoramento das políticas culturais do município."),
+    "text:home-header.description" => i::__("O Mapa Cultural de Camaçari é o Sistema Municipal de Informação e Indicadores Culturais. Desempenha um papel fundamental no planejamento, gestão e monitoramento das políticas culturais do município."),
 
     "text:home-opportunities.description" => i::__("Cadastre-se, participe de editais e oportunidades e concorra aos benefícios."),
     "text:home-entities.events" => i::__("Você pode pesquisar eventos culturais nos campos de busca do seu interesse que ajudam na  precisão de sua pesquisa. Como usuário cadastrado, você pode incluir seus eventos na plataforma e divulgá-los gratuitamente."),
