@@ -7,3 +7,6 @@
 [submodule "plugins/SubsiteImporter"]
 	path = plugins/SubsiteImporter
 	url = https://github.com/mapasculturais/plugin-SubsiteImporter.git
+[submodule "plugins/AdminLoginAsUser"]
+	path = plugins/AdminLoginAsUser
+	url = https://github.com/mapasculturais/plugin-AdminLoginAsUser.git

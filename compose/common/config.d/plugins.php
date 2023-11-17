@@ -2,6 +2,7 @@
 
 return [
     'plugins' => [
+        'AdminLoginAsUser' => ['namespace' => 'AdminLoginAsUser'],
         'EvaluationMethodTechnical' => ['namespace' => 'EvaluationMethodTechnical'],
         'EvaluationMethodSimple' => ['namespace' => 'EvaluationMethodSimple'],
         'EvaluationMethodDocumentary' => ['namespace' => 'EvaluationMethodDocumentary'],
