@@ -1,4 +1,4 @@
-FROM hacklab/mapasculturais:7.2.8
+FROM hacklab/mapasculturais:7.3.2
 
 COPY compose/common/config.d /var/www/config/common.d
 COPY compose/production/config.d /var/www/config/prod.d
